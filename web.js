@@ -9,7 +9,7 @@ console.log(data.toString());
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World 3!');
+  response.send(fs);
 }); 
 
 var port = process.env.PORT || 5000;
